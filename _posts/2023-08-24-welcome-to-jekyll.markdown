@@ -1,29 +1,22 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Day 1: Workflow"
 date:   2023-08-24 14:16:36 +0200
-categories: jekyll update
+categories: days
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Working with Python every day, one can get lost quite easily in habits and hide itself into a system that works -yes- but not only could be better, could be easier to manage, more efficient and encourage both creativity and readability. For this first day of 100 days of code, we will setup the poser-IDE: we will introduce, configure ```neovim``` for general Python development and we will do some exercices to start getting used to the workflow associated with the IDE.
 
-Jekyll requires blog post files to be named according to the following format:
+## Neovim installation and configuration 
+The good thing about installing on Debian-based distros is the magical phrase 
 
-`YEAR-MONTH-DAY-title.MARKUP`
+```
+sudo apt-get install neovim
+```
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Another nice thing in the scope of this project is the readily available package for Python development 
 
-Jekyll also offers powerful support for code snippets:
+```
+sudo apt-get install python3-neovim
+```
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Then we can enter neovim typing ```nvim``` on any shell. Before installing any plugins at the heart of nvim, let's review basic use of the text editor and try to get used to it at least a little bit. 
