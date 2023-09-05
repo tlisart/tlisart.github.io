@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Day 1: Workflow"
+date:   2023-08-24 14:16:36 +0200
+categories: days
+---
+The aim of this 100 days of code is not the usual approach to the challenge, as I do not need to become an amazing programmer at one thing (even though that kind of skills is always welcome). This challenge is structured as follow, every time or day I can learn about a particular concept, technique or improvement in my workflow, I will document it here. As in the original challenge the idea is to create habits in learning elements of computer science, however life takes also place and as I stated, I am not in search of a particular programming job. 
+
+On thos first day I setup and tried some ```neovim``` config. Here are some notes. 
+
+## Neovim installation and configuration 
+The good thing about installing on Debian-based distros is the magical phrase 
+
+```
+sudo apt-get install neovim
+```
+
+Another nice thing in the scope of this project is the readily available package for Python development 
+
+```
+sudo apt-get install python3-neovim
+```
+
+Then we can enter neovim typing ```nvim``` on any shell. Before installing any plugins at the heart of nvim, let's review basic use of the text editor and try to get used to it at least a little bit. In that case let us do the 30 minutes tutorial included in the nvim editor. 
+
+## Preparing nvim for Python, plugins and setting up the IDE
+
